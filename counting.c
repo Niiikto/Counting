@@ -5,7 +5,7 @@
 
 //void counting(char * word, int SIZE);
 void get_word(char lines[], int maxlen) {
-    printf("Please enter your words: ");
+    
     char *result;
     int current_len = 0;
 
@@ -75,10 +75,10 @@ int main(void) {
 
     
 
-    printf("Characters: %lu", charCount);
-    printf("Words: %lu", wordCount);
-    printf("Lines: %lu", lineCount);
-    printf("Spaces: %lu", spaceCount);
+    printf("Characters: %lu\n", charCount);
+    printf("Words: %lu\n", wordCount);
+    printf("Lines: %lu\n", lineCount);
+    printf("Spaces: %lu\n", spaceCount);
 
 
     return 0;
