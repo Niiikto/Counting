@@ -35,7 +35,7 @@ int main(void) {
         }
     }
 
-    printf("%lu\n", charCount);
+    
 
     unsigned long wordCount = 0;
 
@@ -50,7 +50,7 @@ int main(void) {
             i++;
         }
     }
-    printf("%lu\n", wordCount);
+    
 
 
     unsigned long lineCount = 0;
@@ -63,7 +63,7 @@ int main(void) {
             i++;
         }
     }
-    printf("%lu\n", lineCount);
+    
 
     unsigned long spaceCount = 0;
 
@@ -73,7 +73,13 @@ int main(void) {
         }
     }
 
-    printf("%lu\n", spaceCount);
+    
+
+    printf("Characters: %lu", charCount);
+    printf("Words: %lu", wordCount);
+    printf("Lines: %lu", lineCount);
+    printf("Spaces: %lu", spaceCount);
+
 
     return 0;
 }
